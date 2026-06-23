@@ -11,7 +11,13 @@ and validation against NACA TR-824 experimental data.
 | Maximum Cl | 1.6428 | 17° (stall) |
 | Maximum Cl/Cd | 73.28 | 8° (optimal efficiency) |
 | Minimum Cd | 0.009193 | -2° |
-| Validation error (Cl / Cd at 14°) | 1.69% / 12.2% | vs. NACA TR-824 |
+
+**Validation against NACA TR-824 (at α = 14°, Re = 3.1×10⁶):**
+
+| Coefficient | CFD (extrapolated) | Experimental | Deviation |
+|---|---|---|---|
+| Cl | 1.5457 | 1.52 | 1.69% |
+| Cd | 0.02614 | 0.0233 | 12.2% |
 
 ![Cl vs AoA](plots/Cl%20vs%20AoA.png)
 ![Cd vs AoA](plots/Cd%20vs%20AoA.png)
